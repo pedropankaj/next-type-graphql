@@ -1,6 +1,5 @@
 # editor
 .idea
-.vscode
 
 # dependencies
 node_modules
@@ -18,3 +17,7 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 .eslintcache
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

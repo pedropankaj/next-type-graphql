@@ -35,8 +35,8 @@
     "tsconfig.typegraphql.json"
   ],
   "scripts": {
-    "start": "tsc -p tsconfig.json --watch",
-    "build": "yarn clean && tsc -p tsconfig.json",
+    "start": "node init && tsc -p tsconfig.json --watch",
+    "build": "node init && yarn clean && tsc -p tsconfig.json",
     "clean": "npx rimraf ./dist",
     "lint": "eslint \"src/**/*.{ts,tsx,js}\"",
     "lint:fix": "eslint --fix \"src/**/*.{ts,tsx,js}\"",
